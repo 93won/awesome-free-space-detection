@@ -22,8 +22,8 @@ Pixel-wise segmentation of drivable / free area from camera (optionally fused wi
 
 | Name | Paper | Venue / Year | Code |
 |------|-------|--------------|------|
-| DeepLabv3+ indoor drivable path | [Drivable path detection for a mobile robot with differential drive using a deep learning based segmentation method for indoor navigation](https://peerj.com/articles/cs-2514/) | PeerJ Computer Science, 2024 | — |
-| SNE-RoadSegV2 | [SNE-RoadSegV2: Advancing Heterogeneous Feature Fusion and Fallibility Awareness for Freespace Detection](https://arxiv.org/abs/2402.18918) | IEEE journal ([Xplore](https://ieeexplore.ieee.org/document/10906412/)), 2025 · 1st on KITTI Road | To be released (predecessor [SNE-RoadSeg](https://github.com/hlwang1124/SNE-RoadSeg), ECCV 2020) |
+| DeepLabv3+ indoor drivable path | [Drivable path detection for a mobile robot with differential drive using a deep learning based segmentation method for indoor navigation](https://peerj.com/articles/cs-2514/) | PeerJ Computer Science, 2024 | No official code — base model impl: [VainF/DeepLabV3Plus-Pytorch](https://github.com/VainF/DeepLabV3Plus-Pytorch) · [dataset (figshare)](https://doi.org/10.6084/m9.figshare.27061246.v2) |
+| SNE-RoadSegV2 | [SNE-RoadSegV2: Advancing Heterogeneous Feature Fusion and Fallibility Awareness for Freespace Detection](https://arxiv.org/abs/2402.18918) | IEEE journal ([Xplore](https://ieeexplore.ieee.org/document/10906412/)), 2025 · 1st on KITTI Road | Still unreleased as of Jul 2026 (predecessor [SNE-RoadSeg](https://github.com/hlwang1124/SNE-RoadSeg), ECCV 2020) |
 | AGSL | [Effective Free-Driving Region Detection for Mobile Robots by Uncertainty Estimation Using RGB-D Data](https://www.mdpi.com/1424-8220/22/13/4751) | Sensors 22(13), 2022 | — |
 | Task-Oriented Pre-Training | [Task-Oriented Pre-Training for Drivable Area Detection](https://arxiv.org/abs/2409.20166) | arXiv, 2024 | — |
 | Adversarial-robust free-space segmentation | [Enhancing Robustness of Indoor Robotic Navigation with Free-Space Segmentation Models Against Adversarial Attacks](https://arxiv.org/abs/2402.08763) | IEEE IRC, 2023 | — |
@@ -52,18 +52,18 @@ The robot's own driving experience (or a vision foundation model) replaces manua
 
 | Name | Paper | Venue / Year | Code |
 |------|-------|--------------|------|
-| V-STRONG | [V-STRONG: Visual Self-Supervised Traversability Learning for Off-road Navigation](https://arxiv.org/abs/2312.16016) | ICRA 2024 | — ([project site](https://sites.google.com/view/visual-traversability-learning)) |
+| V-STRONG | [V-STRONG: Visual Self-Supervised Traversability Learning for Off-road Navigation](https://arxiv.org/abs/2312.16016) | ICRA 2024 | [shjung13/V-Strong](https://github.com/shjung13/V-Strong) (official, under construction) · [project site](https://sites.google.com/view/visual-traversability-learning) |
 | W-RIZZ | [W-RIZZ: A Weakly-Supervised Framework for Relative Traversability Estimation in Mobile Robotics](https://arxiv.org/abs/2406.02822) | RA-L 2024 | [andreschreiber/W-RIZZ](https://github.com/andreschreiber/W-RIZZ) |
 | STEPP | [Watch Your STEPP: Semantic Traversability Estimation using Pose Projected Features](https://arxiv.org/abs/2501.17594) | ICRA 2025 | [RPL-CS-UCL/STEPP-Code](https://github.com/RPL-CS-UCL/STEPP-Code) |
 | ViTA | [From General Vision to Reliable Traversability Estimation: Adapting Vision Foundation Models for Unstructured Outdoor Environments](https://arxiv.org/abs/2605.29565) | arXiv, 2026 | — |
 | Scene-Agnostic Traversability | [Scene-Agnostic Traversability Labeling and Estimation via a Multimodal Self-supervised Framework](https://arxiv.org/abs/2508.18249) | arXiv, 2025 | — |
-| COTRATE | [Self-Supervised Online Robot-Agnostic Traversability Estimation for Open-World Environments](https://arxiv.org/abs/2605.28442) | arXiv, 2026 | Announced in paper |
+| COTRATE | [Self-Supervised Online Robot-Agnostic Traversability Estimation for Open-World Environments](https://arxiv.org/abs/2605.28442) | arXiv, 2026 | Announced ("upon acceptance") — not public as of Jul 2026 |
 
 ## Surveys & Paper Lists
 
 | Name | Paper | Venue / Year | Code |
 |------|-------|--------------|------|
-| Occupancy Perception Survey | [A Survey on Occupancy Perception for Autonomous Driving: The Information Fusion Perspective](https://github.com/HuaiyuanXu/3D-Occupancy-Perception) | Information Fusion, 2025 | [HuaiyuanXu/3D-Occupancy-Perception](https://github.com/HuaiyuanXu/3D-Occupancy-Perception) |
+| Occupancy Perception Survey | [A Survey on Occupancy Perception for Autonomous Driving: The Information Fusion Perspective](https://arxiv.org/abs/2405.05173) | Information Fusion, 2025 | [HuaiyuanXu/3D-Occupancy-Perception](https://github.com/HuaiyuanXu/3D-Occupancy-Perception) |
 | Vision-based 3D Occupancy Review | [Vision-based 3D occupancy prediction in autonomous driving: a review and outlook](https://arxiv.org/abs/2405.02595) | Frontiers of Computer Science ([Springer](https://link.springer.com/article/10.1007/s11704-024-40443-5)) | [zya3d/Awesome-3D-Occupancy-Prediction](https://github.com/zya3d/Awesome-3D-Occupancy-Prediction) |
 | Multi-Camera 3D Occupancy Collection | — | — | [lvchuandong/Awesome-Multi-Camera-3D-Occupancy-Prediction](https://github.com/lvchuandong/Awesome-Multi-Camera-3D-Occupancy-Prediction) |
 
